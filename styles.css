@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,600&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  background-color: #334443;
+  width: 400px;
+  padding: 1rem;
+  color: #fff;
+}
+
+.wrapper .inputBx input {
+  flex-grow: 1;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #fff;
+  outline: none;
+  color: #fff;
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.wrapper .inputBx form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.add-btn {
+  border: none;
+  background-color: #c6ffc1;
+  padding: 0.4rem 0.8rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  color: #c6ffc1;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 1.2rem 0;
+  text-transform: uppercase;
+}
+
+.list-items > div {
+  display: flex;
+  justify-content: space-between;
+  background-color: #34656d;
+  margin: 1.2rem 0;
+  padding: 1rem;
+}
